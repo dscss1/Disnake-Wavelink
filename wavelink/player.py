@@ -27,7 +27,7 @@ import logging
 from typing import Any, Dict, Union, Optional
 
 import disnake
-from disnake.channel import VoiceChannel
+from discord.channel import VoiceChannel
 
 from . import abc
 from .pool import Node, NodePool
