@@ -22,7 +22,7 @@ SOFTWARE.
 """
 
 from .enums import ErrorSeverity
-from disnake.enums import try_enum
+from discord.enums import try_enum
 
 
 __all__ = (
